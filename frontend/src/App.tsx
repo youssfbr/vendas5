@@ -1,10 +1,14 @@
+import NavBar from "shared/components/NavBar";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1 className="text-primary">Olá Mundo!</h1>
-    </div>
+    <>
+      <NavBar />
+      <div className="container bg-light">
+        <h1 className="text-primary">Olá Mundo!</h1>
+      </div>
+    </>
   );
-}
+};
 
 export default App;

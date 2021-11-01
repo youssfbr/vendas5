@@ -5,7 +5,8 @@
 
 html, body {
     height: 100%;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;     
+    background-color: #F8F9FA;   
 }
 
 #root {
