@@ -1,7 +1,8 @@
+import NavBar from "shared/components/NavBar";
 import BarChart from "shared/components/BarChart";
+import DonutChart from "shared/components/DonutChart";
 import DataTable from "shared/components/DataTable";
 import Footer from "shared/components/Footer";
-import NavBar from "shared/components/NavBar";
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
           </div>
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Todas Vendas</h5>
-            <BarChart /> 
+            <DonutChart /> 
           </div>
         </div>
 
