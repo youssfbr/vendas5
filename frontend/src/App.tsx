@@ -1,12 +1,9 @@
-//import { Routes } from "react-router"
-import Routs from "Routs";
+import Routes from "./Routes";
 
-
-const App = () => {
-  return (
-    <Routs />
-   
+function App() {
+  return (    
+      <Routes />    
   );
-};
+}
 
 export default App;

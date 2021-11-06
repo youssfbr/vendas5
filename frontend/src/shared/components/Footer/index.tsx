@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer mt-auto py-3 bg-dark ">
+    <div className="footer mt-auto py-3 bg-dark">
+      <footer>
         <div className="container">
           <p className="text-light">
             App desenvolvido por{" "}

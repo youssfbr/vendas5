@@ -1,13 +1,14 @@
-import NavBar from "shared/components/NavBar";
 import BarChart from "shared/components/BarChart";
 import DonutChart from "shared/components/DonutChart";
 import DataTable from "shared/components/DataTable";
+import NavBar from "shared/components/NavBar";
 import Footer from "shared/components/Footer";
 
 const Dashboard = () => {
   return (
     <>
       <NavBar />
+
       <div className="container bg-light">
         <h1 className="text-primary py-3">Dashboard de Vendas</h1>
 
@@ -28,7 +29,8 @@ const Dashboard = () => {
 
         <DataTable />
       </div>
-      <Footer />
+
+      <Footer />      
     </>
   );
 };
